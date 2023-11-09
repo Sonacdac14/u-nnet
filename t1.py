@@ -6,8 +6,8 @@ from unet import build_unet  # Assuming 'unet' contains the model architecture
 from metrics import dice_loss, dice_coef  # Assuming these metrics are defined
 
 # Define global parameters (you can customize these)
-H = 256
-W = 256
+H = 512
+W = 512
 
 def load_and_process_image(image_path):
     # Load the model
